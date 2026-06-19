@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+    <section className='w-full h-82 bg-black'></section>
     </>
   )
 }

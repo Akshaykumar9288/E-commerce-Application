@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Top_Header from './components/layout/Top_Header'
 import Header from './components/layout/Header'
+import Hero from './components/layout/Hero'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -12,6 +13,7 @@ function App() {
     <>
     <Top_Header />
     <Header/>
+    <Hero/>
     </>
   )
 }

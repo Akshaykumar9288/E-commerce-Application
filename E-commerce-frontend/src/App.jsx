@@ -6,6 +6,7 @@ import './App.css'
 import Top_Header from './components/layout/Top_Header'
 import Header from './components/layout/Header'
 import Hero from './components/layout/Hero'
+import Category from './components/layout/Category'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,6 +15,7 @@ function App() {
     <Top_Header />
     <Header/>
     <Hero/>
+    <Category/>
     </>
   )
 }

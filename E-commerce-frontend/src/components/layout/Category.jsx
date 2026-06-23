@@ -11,22 +11,22 @@ function Category() {
             categoryName: "Electronics"
         },
         {
-            id: 1,
+            id: 2,
             image: Cloth,
             categoryName: "Fashion"
         },
         {
-            id: 1,
+            id: 3,
             image: Home,
             categoryName: "Home"
         },
         {
-            id: 1,
+            id: 4,
             image: Beauty,
             categoryName: "Beauty"
         },
         {
-            id: 1,
+            id: 5,
             image: Books,
             categoryName: "Books"
         }

@@ -37,15 +37,11 @@ function Category() {
                 <h2 className="text-[#191C1D] text-[32px] font-semibold leading-[41.6px]">Shop by Category</h2>
                 <div className="category-list w-full h-full flex items-center justify-center gap-[32px]">
                     {categories.map(category => (
-                        
                         <div key = {category.id  } className="category-box w-[128px] h-[168px] bg-cover bg-center rounded-full ">
                             <div className="pb-[16px]"><img className="rounded-full" src={category.image} /> </div>
                             <p className="text-center">{category.categoryName}</p>
                         </div>
                     ))}
-
-
-
                 </div>
             </div>
         </section>

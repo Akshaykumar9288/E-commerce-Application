@@ -7,6 +7,7 @@ import Top_Header from './components/layout/Top_Header'
 import Header from './components/layout/Header'
 import Hero from './components/layout/Hero'
 import Category from './components/layout/Category'
+import FlashSale from './components/layout/Flash_sale'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +17,7 @@ function App() {
     <Header/>
     <Hero/>
     <Category/>
+    <FlashSale/>
     </>
   )
 }

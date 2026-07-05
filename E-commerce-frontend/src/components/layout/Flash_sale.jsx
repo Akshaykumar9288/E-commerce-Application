@@ -64,7 +64,7 @@ function FlashSale() {
 
 useEffect(() => {
     console.log(import.meta.env);
-    axios.get(import.meta.env.VITE_FLASH_SALE_API_URL_PRODUCTION)
+    axios.get(import.meta.env.VITE_FLASH_SALE_API_URL)
         .then((response) => {
             console.log(response.data);
             setPost(response.data.flashsale);
